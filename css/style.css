@@ -81,7 +81,7 @@ body {
     margin-bottom: 5px;
     margin-left: 10px;
     padding-top: 10px;
-    font-family: Papyrus,fantasy;
+    font-family: "Open Sans", Arial, sans-serif;
 
   }
 
@@ -92,7 +92,7 @@ body {
   }
 
   .message {
-    color: #AD974F;
+    color: #c59229;
     margin-left: 10px;
     font-style: bold;
 
@@ -124,13 +124,13 @@ body {
 
 
 a {
-  color: #AD974F;
+  color: #c59229;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #AD974F;
+  color: #c59229;
   outline: none;
   text-decoration: none;
 }
@@ -148,17 +148,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #231F20;
-  background: #AD974F;
+  background: #c59229;
 }
 
 ::-moz-selection {
   color: #231F20;
-  background: #AD974F;
+  background: #c59229;
 }
 
 ::selection {
   color: #231F20;
-  background: #AD974F;
+  background: #c59229;
 }
 
 .fh5co-nav {
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #231F20;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #AD974F;
+  color: #c59229;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #231F20;
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .fh5co-nav ul li.active > a {
-  color: #AD974F!important;
+  color: #c59229!important;
 }
 
 #fh5co-counter,
@@ -653,6 +653,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-title {
   margin-top: 0;
+  color: #c59229 !important;
 }
 
 .date {
@@ -661,6 +662,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: white !important;
 }
 
 .timeline-body > p,
@@ -793,7 +795,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-gallery-list li a .case-studies-summary h2 {
-  color: #231F20;
+  color: #c59229;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
@@ -844,7 +846,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #AD974F;
+  color: #c59229;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -863,7 +865,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #AD974F;
+  color: #c59229;
   position: absolute;
   left: 0;
   top: .05em;
@@ -955,7 +957,7 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #231F20 !important;
-  color: #AD974F;
+  color: #c59229;
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -1130,7 +1132,7 @@ form label {
   font-size: 20px;
   background: #231F20;
   padding: 20px;
-  color: #AD974F;
+  color: #c59229;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1153,7 +1155,7 @@ form label {
 }
 .couple-half h3 {
   font-family: "Sacramento", Arial, serif;
-  color: #AD974F;
+  color: #c59229;
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1246,7 +1248,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #AD974F;
+  color: #c59229;
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
@@ -1268,7 +1270,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #AD974F;
+  color: #c59229;
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1303,7 +1305,7 @@ form label {
   display: block;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #AD974F;
+  color: #c59229;
   font-weight: 300;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure {
@@ -1395,7 +1397,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #AD974F;
+  color: #c59229;
 }
 .feature-left .feature-copy {
   float: left;
@@ -1426,15 +1428,15 @@ form label {
   background: rgba(0, 0, 0, 0.4);
 }
 #fh5co-started .fh5co-heading h2 {
-  color: #231F20;
+  /*color: #231F20;*/
 }
 #fh5co-started .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
 }
 #fh5co-started .form-control {
   background: rgba(255, 255, 255, 0.2);
   border: none !important;
-  color: #231F20;
+  color: white;
   font-size: 16px !important;
   width: 100%;
   -webkit-transition: 0.5s;
@@ -1442,18 +1444,18 @@ form label {
   transition: 0.5s;
 }
 #fh5co-started .form-control::-webkit-input-placeholder {
-  color: #231F20;
+  color: white;
 }
 #fh5co-started .form-control:-moz-placeholder {
   /* Firefox 18- */
-  color: #231F20;
+  color: white;
 }
 #fh5co-started .form-control::-moz-placeholder {
   /* Firefox 19+ */
-  color: #231F20;
+  color: white;
 }
 #fh5co-started .form-control:-ms-input-placeholder {
-  color: #231F20;
+  color: white;
 }
 #fh5co-started .form-control:focus {
   background: rgba(255, 255, 255, 0.3);
@@ -1461,8 +1463,8 @@ form label {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #AD974F;
-  color: #231F20;
+  background: #c59229;
+  color: white;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1505,7 +1507,7 @@ form label {
 }
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
-  border: 2px solid #AD974F;
+  border: 2px solid #c59229;
 }
 
 #fh5co-offcanvas {
@@ -1653,24 +1655,24 @@ form label {
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #AD974F;
+  background: #c59229;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 2px;
-  background: #AD974F;
+  background: #c59229;
   position: absolute;
   left: 0;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
   color: #231F20;
-  background: #AD974F;
+  background: #c59229;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
-  background: #AD974F;
+  background: #c59229;
 }
 
 .fh5co-nav-toggle i::before {
@@ -1724,11 +1726,11 @@ form label {
   width: 44px;
   z-index: 2001;
   border-bottom: none !important;
-  color: #AD974F !important;
+  color: #c59229 !important;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
-    display: block;
+    display: none;
   }
 }
 
@@ -1759,9 +1761,9 @@ form label {
 }
 
 .btn-primary {
-  background: #AD974F;
+  background: #c59229;
   color: #231F20;
-  border: 2px solid #AD974F;
+  border: 2px solid #c59229;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #f366a3 !important;
@@ -1769,11 +1771,11 @@ form label {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #AD974F;
-  border: 2px solid #AD974F;
+  color: #c59229;
+  border: 2px solid #c59229;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #AD974F;
+  background: #c59229;
   color: #231F20;
 }
 
@@ -1903,7 +1905,7 @@ form label {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #AD974F;
+  border-color: #c59229;
 }
 
 .row-pb-md {

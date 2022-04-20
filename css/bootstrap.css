@@ -456,6 +456,7 @@ hr {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+  color: white !important;
 }
 
 .sr-only-focusable:active, .sr-only-focusable:focus {
@@ -465,6 +466,7 @@ hr {
   margin: 0;
   overflow: visible;
   clip: auto;
+  color: white !important;
 }
 
 [role="button"] {
@@ -2137,15 +2139,16 @@ output {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
+
 .form-control::-moz-placeholder {
-  color: #999;
+  color: white;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #999;
+  color: white;
 }
 .form-control::-webkit-input-placeholder {
-  color: #999;
+  color: white;
 }
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
   background-color: #eeeeee;
