@@ -5,7 +5,6 @@ form.addEventListener('submit', (e) => {
        name: form.name.value,
        comment: form.comment.value,
        timestamp: firebase.firestore.Timestamp.fromDate(new Date()).toDate(),
-       kehadiran: form.kehadiran.value
 
     });
     form.name.value = '';
@@ -22,7 +21,6 @@ form.addEventListener('submit', (e) => {
       var name = document.createElement('h5');
       var timestamp = document.createElement('h6');
       var comment = document.createElement('p');
-      var kehadiran = document.createElement('p');
 
       main_div.setAttribute('class','card mt-3 kartu');
       main_div.setAttribute('style','width : 100%');
@@ -31,22 +29,19 @@ form.addEventListener('submit', (e) => {
       name.setAttribute('class','card-title titles');
       timestamp.setAttribute('class','card-subtitle mb-2 text-muted times');
       comment.setAttribute('class','card-text message');
-      kehadiran.setAttribute('class','card-text message');
 
       
       var unix = doc.data().timestamp.toDate();
 
-      var how = unix.toLocaleString('en-GB' , { timeZone: 'UTC'});
+      var how = unix.toLocaleString('en-GB' , { timeZone: 'Asia/Pontianak'});
 
       name.textContent = doc.data().name;
       timestamp.textContent = how;
       comment.textContent = doc.data().comment;
-      kehadiran.textContent = doc.data().kehadiran;
 
       card_body.appendChild(name);
       card_body.appendChild(timestamp);
       card_body.appendChild(comment);
-      card_body.appendChild(kehadiran);
       main_div.appendChild(card_body);
       div.appendChild(main_div);
    }
