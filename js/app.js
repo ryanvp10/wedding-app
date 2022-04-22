@@ -45,7 +45,7 @@ form.addEventListener('submit', (e) => {
       main_div.appendChild(card_body);
       div.appendChild(main_div);
    }
-   db.collection('comments').onSnapshot(snap => {
+   db.collection('comments').orderBy('timestamp','desc').onSnapshot(snap => {
 
       let changes = snap.docChanges();
       changes.forEach(change => {
