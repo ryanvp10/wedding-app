@@ -1105,6 +1105,18 @@ form label {
   }
 }
 
+#fh5co-testimonial .btn {
+   height: 54px;
+  border: none !important;
+  background: #c59229;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .fh5co-section-gray {
   background: rgba(0, 0, 0, 0.04);
 }
