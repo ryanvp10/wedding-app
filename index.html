@@ -70,19 +70,36 @@
 	</head>
 
 <div class="splashscreen fade-in">
-	<h1 style="margin-top: 200px;">The Wedding Of</h1>
-    <h1>Nailudduri &amp; Ryan</h1>
-    <p style="color : white; margin-top: 300px; margin-left: 20px; margin-right: 20px;">Kepada Bapak/Ibu/Saudara/i</p>
+	<h1 id="headersplash1">The Wedding Of</h1>
+    <h1 id="headersplash2">Nailudduri &amp; Ryan</h1>
+    <p id="psplash1">Kepada Bapak/Ibu/Saudara/i</p>
     <h2 id="partner"></h2>
-    <p style="color :white; margin-left: 20px; margin-right: 20px;">Mohon maaf bila ada kesalahan pada penulisan nama / gelar
-    <a href="#" class="splash-arrow fade-in"></a>
+    <p style="color :white; margin-left: 20px; margin-right: 20px;">Mohon maaf bila ada kesalahan <br>pada penulisan nama / gelar</p>
+    <a href="#" class="btn btn-default btn-md openup fade-in">Open Invitation</a>
   </div>
-
 	<body>
-		
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
+	<a id="tombollagu" onclick="aud_play_pause()"><i id="stateicon" class="glyphicon glyphicon-pause"></i></a>
+	<audio id="myTune" src="audio/Beautiful In White.mp4" loop></audio>
+
+	<script>
+		var myAudio = document.getElementById("myTune");
+		 function aud_play_pause() {
+    	if (myAudio.paused) {
+      	$('#stateicon').removeClass('glyphicon glyphicon-play');
+      	$('#stateicon').addClass('glyphicon glyphicon-pause');
+      myAudio.play();
+    } else {
+      $('#stateicon').removeClass('glyphicon glyphicon-pause');
+      $('#stateicon').addClass('glyphicon glyphicon-play');
+      myAudio.pause();
+   }
+ }
+
+	</script>
+
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
@@ -105,7 +122,7 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg); background-position: center;">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/hitam2.jpg); background-position: center;">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -135,7 +152,7 @@
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="images/coba_1.jpg" alt="groom" class="img-responsive">
+						<img src="images/ppryan.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
 						<h3>Ryan Sapta Adi Putra DS</h3>
@@ -146,7 +163,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="images/coba_2.jpg" alt="groom" class="img-responsive">
+						<img src="images/ppiyud.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3>Nailudduri Retno Aryanti</h3>
@@ -217,14 +234,14 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>We Love Each Other</span>
 					<h2>Our Story</h2>
-					<p>Inilah perjalanan kisah cinta kita aseekk wkwkw.</p>
+					<p>Cinta itu bukan hanya perasaan senang ketika bersamanya. Cinta juga adalah komitmen untuk tetap bersamanya, ketika perasaan senang itu hilang.</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline animate-box">
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
+							<div class="timeline-badge" style="background-image:url(images/bgmeet.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">First We Meet</h3>
@@ -236,7 +253,7 @@
 							</div>
 						</li>
 						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+							<div class="timeline-badge" style="background-image:url(images/bgfirstdate.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">First Date</h3>
@@ -248,7 +265,7 @@
 							</div>
 						</li>
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+							<div class="timeline-badge" style="background-image:url(images/bgjadian.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">In A Relationship</h3>
@@ -260,7 +277,7 @@
 							</div>
 						</li>
 						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+							<div class="timeline-badge" style="background-image:url(images/bgengage.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Engagement</h3>
@@ -272,7 +289,7 @@
 							</div>
 						</li>
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+							<div class="timeline-badge" style="background-image:url(images/bgbeforethewed.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Before The Wedding</h3>
@@ -301,8 +318,8 @@
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-12">
 					<ul id="fh5co-gallery-list">
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/IMG_9952.jpg); "> 
-						<a href="#fh5co-gallery" id="myImg">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/hitam1.jpg); "> 
+						<a id="myImg">
 							<div class="case-studies-summary">
 								<span>10 Photos</span>
 								<h2>Black on Black</h2>
@@ -315,17 +332,17 @@
 							<div class="modal-content">
 							<div id="myGallery" class="carousel slide">
 							<div class="carousel-inner">
-							<div class="item active"> <img src="images/IMG_9952.jpg" alt="item0">
+							<div class="item active"> <img src="images/hitam1.jpg" alt="item0">
 							</div>
-							<div class="item"> <img src="images/IMG_0063.jpg" alt="item1">
+							<div class="item"> <img src="images/hitam2.jpg" alt="item1">
 							</div>
-							<div class="item"> <img src="images/IMG_0212.jpg" alt="item2">
+							<div class="item"> <img src="images/hitam3.jpg" alt="item2">
 							</div>
-							<div class="item"> <img src="images/IMG_0228.jpg" alt="item3">
+							<div class="item"> <img src="images/hitam4.jpg" alt="item3">
 							</div>
-							<div class="item"> <img src="images/IMG_9970.jpg" alt="item4">
+							<div class="item"> <img src="images/hitam5.jpg" alt="item4">
 							</div>
-							<div class="item"> <img src="images/IMG_9992.jpg" alt="item5">
+							<div class="item"> <img src="images/hitam6.jpg" alt="item5">
 							</div>
 							</div>
 							<a class="left carousel-control" href="#myGallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -333,8 +350,8 @@
 						</div>
 					</div>
 
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/IMG_0197.jpg); ">
-						<a href="#fh5co-gallery" id="myImg2">
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/hijau1.jpg); ">
+						<a id="myImg2">
 							<div class="case-studies-summary">
 								<span>10 Photos</span>
 								<h2>Happiness</h2>
@@ -346,57 +363,159 @@
 							<div class="modal-content">
 							<div id="myGallery2" class="carousel slide">
 							<div class="carousel-inner">
-							<div class="item active"> <img src="images/IMG_0197.jpg" alt="item0">
+							<div class="item active"> <img src="images/hijau1.jpg" alt="item0">
 							</div>
-							<div class="item"> <img src="images/IMG_0149.jpg" alt="item1">
+							<div class="item"> <img src="images/hijau4.jpg" alt="item1">
 							</div>
-							<div class="item"> <img src="images/IMG_0095.jpg" alt="item2">
+							<div class="item"> <img src="images/hijau5.jpg" alt="item2">
 							</div>
-							<div class="item"> <img src="images/IMG_0196.jpg" alt="item3">
+							<div class="item"> <img src="images/hijau2.jpg" alt="item3">
 							</div>
-							<div class="item"> <img src="images/IMG_0185.jpg" alt="item4">
+							<div class="item"> <img src="images/hijau3.jpg" alt="item4">
 							</div>
-							<div class="item"> <img src="images/IMG_0153.jpg" alt="item5">
+							<div class="item"> <img src="images/hijau6.jpg" alt="item5">
 							</div>
 							</div>
-							<a class="left carousel-control" href="#myGallery2" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery2" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+							<a class="left carousel-control" href="#myGallery2" role="button" data-slide="prev"> 
+								<span class="glyphicon glyphicon-chevron-left"></span></a> 
+								<a class="right carousel-control" href="#myGallery2" role="button" data-slide="next"> 
+									<span class="glyphicon glyphicon-chevron-right"></span></a>
 							</div>
 						</div>
 					</div>
 
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/DSC_3472.jpg); ">
-						<a href="#fh5co-gallery" class="color-3">
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/tb1.jpg); ">
+						<a id="myImg3">
 							<div class="case-studies-summary">
 								<span>10 Photos</span>
 								<h2>#Throwback</h2>
 							</div>
 						</a>
 					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/DSC06288.jpg); ">
-						<a href="#fh5co-gallery" class="color-4">
+					<div class="modal" id="Modal3">
+							<span class="glyphicon glyphicon-remove" id="close3"></span>
+							<div class="modal-content">
+							<div id="myGallery3" class="carousel slide">
+							<div class="carousel-inner">
+							<div class="item active"> <img src="images/tb1.jpg" alt="item0">
+							</div>
+							<div class="item"> <img src="images/tb2.jpg" alt="item1">
+							</div>
+							<div class="item"> <img src="images/tb3.jpg" alt="item2">
+							</div>
+							<div class="item"> <img src="images/tb4.jpg" alt="item3">
+							</div>
+							<div class="item"> <img src="images/tb5.jpg" alt="item4">
+							</div>
+							<div class="item"> <img src="images/tb6.jpg" alt="item5">
+							</div>
+							</div>
+							<a class="left carousel-control" href="#myGallery3" role="button" data-slide="prev"> 
+								<span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery3" role="button" data-slide="next"> 
+									<span class="glyphicon glyphicon-chevron-right"></span></a>
+							</div>
+						</div>
+					</div>
+
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/eng1.jpg); ">
+						<a id="myImg4">
 							<div class="case-studies-summary">
 								<span>10 Photos</span>
 								<h2>Engagement</h2>
 							</div>
 						</a>
 					</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/Feed_3.jpg); ">
-							<a href="#fh5co-gallery" class="color-3">
+					<div class="modal" id="Modal4">
+							<span class="glyphicon glyphicon-remove" id="close4"></span>
+							<div class="modal-content">
+							<div id="myGallery4" class="carousel slide">
+							<div class="carousel-inner">
+							<div class="item active"> <img src="images/eng1.jpg" alt="item0">
+							</div>
+							<div class="item"> <img src="images/eng2.jpg" alt="item1">
+							</div>
+							<div class="item"> <img src="images/eng3.jpg" alt="item2">
+							</div>
+							<div class="item"> <img src="images/eng4.jpg" alt="item3">
+							</div>
+							<div class="item"> <img src="images/eng5.jpg" alt="item4">
+							</div>
+							<div class="item"> <img src="images/eng6.jpg" alt="item5">
+							</div>
+							</div>
+							<a class="left carousel-control" href="#myGallery4" role="button" data-slide="prev"> 
+								<span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery4" role="button" data-slide="next"> 
+									<span class="glyphicon glyphicon-chevron-right"></span></a>
+							</div>
+						</div>
+					</div>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/grad1.jpg); ">
+							<a id="myImg5">
 								<div class="case-studies-summary">
 									<span>10 Photos</span>
 									<h2>Graduation</h2>
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/IMG_0108.jpg); ">
-							<a href="#fh5co-gallery" class="color-4">
+
+						<div class="modal" id="Modal5">
+							<span class="glyphicon glyphicon-remove" id="close5"></span>
+							<div class="modal-content">
+							<div id="myGallery5" class="carousel slide">
+							<div class="carousel-inner">
+							<div class="item active"> <img src="images/grad1.jpg" alt="item0">
+							</div>
+							<div class="item"> <img src="images/grad2.jpg" alt="item1">
+							</div>
+							<div class="item"> <img src="images/grad3.jpg" alt="item2">
+							</div>
+							<div class="item"> <img src="images/grad4.jpg" alt="item3">
+							</div>
+							<div class="item"> <img src="images/grad5.jpg" alt="item4">
+							</div>
+							<div class="item"> <img src="images/grad6.jpg" alt="item5">
+							</div>
+							</div>
+							<a class="left carousel-control" href="#myGallery5" role="button" data-slide="prev"> 
+								<span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery5" role="button" data-slide="next"> 
+									<span class="glyphicon glyphicon-chevron-right"></span></a>
+							</div>
+						</div>
+					</div>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/trad1.jpg); ">
+							<a id="myImg6">
 								<div class="case-studies-summary">
 									<span>10 Photos</span>
 									<h2>Traditional</h2>
 								</div>
 							</a>
 						</li>
+						<div class="modal" id="Modal6">
+							<span class="glyphicon glyphicon-remove" id="close6"></span>
+							<div class="modal-content">
+							<div id="myGallery6" class="carousel slide">
+							<div class="carousel-inner">
+							<div class="item active"> <img src="images/trad1.jpg" alt="item0">
+							</div>
+							<div class="item"> <img src="images/trad2.jpg" alt="item1">
+							</div>
+							<div class="item"> <img src="images/trad3.jpg" alt="item2">
+							</div>
+							<div class="item"> <img src="images/trad4.jpg" alt="item3">
+							</div>
+							<div class="item"> <img src="images/trad5.jpg" alt="item4">
+							</div>
+							<div class="item"> <img src="images/trad6.jpg" alt="item5">
+							</div>
+							</div>
+							<a class="left carousel-control" href="#myGallery6" role="button" data-slide="prev"> 
+								<span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myGallery6" role="button" data-slide="next"> 
+									<span class="glyphicon glyphicon-chevron-right"></span></a>
+							</div>
+						</div>
+					</div>
+
 					</ul>		
 				</div>
 			</div>
@@ -418,7 +537,7 @@
 				</div>
 			</div>
 	</div>
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/v748-toon-75.jpg);">
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/bgquotes.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
@@ -638,12 +757,24 @@
 		//gallery 1
 		var modal = document.getElementById("myModal");
 		var modal2 = document.getElementById("Modal2");
+		var modal3 = document.getElementById("Modal3");
+		var modal4 = document.getElementById("Modal4");
+		var modal5 = document.getElementById("Modal5");
+		var modal6 = document.getElementById("Modal6");
 		// Get the image and insert it inside the modal - use its "alt" text as a caption
 		var img = document.getElementById("myImg");
 		var img2 = document.getElementById("myImg2");
+		var img3 = document.getElementById("myImg3");
+		var img4 = document.getElementById("myImg4");
+		var img5 = document.getElementById("myImg5");
+		var img6 = document.getElementById("myImg6");
 
 		var modalImg = document.getElementById("myGallery");
 		var modalImg2 = document.getElementById("myGallery2");
+		var modalImg3 = document.getElementById("myGallery3");
+		var modalImg4 = document.getElementById("myGallery4");
+		var modalImg5 = document.getElementById("myGallery5");
+		var modalImg6 = document.getElementById("myGallery6");
 
 		img.onclick = function(){
 		  modal.style.display = "block";
@@ -655,9 +786,34 @@
 		  modalImg2.src = this.src;
 		}
 
+		img3.onclick = function(){
+		  modal3.style.display = "block";
+		  modalImg3.src = this.src;
+		}
+
+		img4.onclick = function(){
+		  modal4.style.display = "block";
+		  modalImg4.src = this.src;
+		}
+
+		img5.onclick = function(){
+		  modal5.style.display = "block";
+		  modalImg5.src = this.src;
+		}
+
+		img6.onclick = function(){
+		  modal6.style.display = "block";
+		  modalImg6.src = this.src;
+		}
+
+
 		// Get the <span> element that closes the modal
 		var span = document.getElementById("close");
 		var span2 = document.getElementById("close2");
+		var span3 = document.getElementById("close3");
+		var span4 = document.getElementById("close4");
+		var span5 = document.getElementById("close5");
+		var span6 = document.getElementById("close6");
 
 		// When the user clicks on <span> (x), close the modal
 		span.onclick = function() { 
@@ -667,13 +823,30 @@
 		span2.onclick = function() { 
 		  modal2.style.display = "none";
 		}
+
+		span3.onclick = function() { 
+		  modal3.style.display = "none";
+		}
+
+		span4.onclick = function() { 
+		  modal4.style.display = "none";
+		}
+
+		span5.onclick = function() { 
+		  modal5.style.display = "none";
+		}
+
+		span6.onclick = function() { 
+		  modal6.style.display = "none";
+		}
+
 	</script>
 	<script>
 
 		var partner = document.getElementById("partner");
 		let params = new URLSearchParams( window.location.search);
 		var baru = document.createElement('h2');
-		var isi = params.get('nama');
+		var isi = params.get('to');
 
 		baru.innerHTML = isi;
 
