@@ -1,11 +1,14 @@
 $(document).ready(function(){
 	if ($(".splashscreen").is(":visible")) {
 		$("body").css({"overflow":"hidden"});
+
 	}
-	$(".splash-arrow").click(function() {
+	$(".openup").click(function() {
 		$(".splashscreen").slideUp("800",function(){
 		$(".wrapper").delay(100).animate({"opacity":"1.0"},800);
 		$("body").css({"overflow":"visible"});
+		$("audio")[0].play();
+
 	});
 });
 });
