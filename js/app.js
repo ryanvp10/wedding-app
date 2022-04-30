@@ -29,6 +29,7 @@ form.addEventListener('submit', (e) => {
       name.setAttribute('class','card-title titles');
       timestamp.setAttribute('class','card-subtitle mb-2 text-muted times');
       comment.setAttribute('class','card-text message');
+      comment.setAttribute('stlye','font-size: 8px');
 
       
       var unix = doc.data().timestamp.toDate();
