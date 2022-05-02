@@ -5,6 +5,7 @@ form.addEventListener('submit', (e) => {
        name: form.name.value,
        comment: form.comment.value,
        timestamp: firebase.firestore.Timestamp.fromDate(new Date()).toDate(),
+       kehadiran: form.kehadiran.value
 
     });
     form.name.value = '';
