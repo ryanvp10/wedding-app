@@ -36,7 +36,7 @@ form.addEventListener('submit', (e) => {
       timestamp.setAttribute('style','font-size: 8px');
       comment.setAttribute('class','card-text message');
       comment.setAttribute('style','font-size: 10px');
-      comment.setAttribute('style','overflow : auto');
+      
 
       
       var unix = doc.data().timestamp.toDate();
