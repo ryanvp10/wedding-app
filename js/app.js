@@ -25,7 +25,7 @@ form.addEventListener('submit', (e) => {
 
       main_div.setAttribute('class','card mt-3 kartu');
       main_div.setAttribute('style','width : 100%');
-      main_div.setAttribute('style','overflow : auto');
+
       card_body.setAttribute('class','card-body');
       card_body.setAttribute('style','margin-top : 20px');
 
@@ -36,6 +36,7 @@ form.addEventListener('submit', (e) => {
       timestamp.setAttribute('style','font-size: 8px');
       comment.setAttribute('class','card-text message');
       comment.setAttribute('style','font-size: 10px');
+      comment.setAttribute('style','overflow : auto');
 
       
       var unix = doc.data().timestamp.toDate();
