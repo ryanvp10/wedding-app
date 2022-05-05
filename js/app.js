@@ -27,6 +27,7 @@ form.addEventListener('submit', (e) => {
       main_div.setAttribute('style','width : 100%');
       card_body.setAttribute('class','card-body');
       card_body.setAttribute('style','margin-top : 20px');
+      card_body.setAttribute('style','overflow : auto');
       name.setAttribute('class','card-title titles');
       name.setAttribute('style','font-size: 11px');
 
